@@ -5,6 +5,7 @@
     <title>Ma page de test2</title>
   </head>
   <body>   
+    This is php page.
    <?php
       echo "Test console";
       $user=$_SERVER['HTTP_USER_AGENT'];
