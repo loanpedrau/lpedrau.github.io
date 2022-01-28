@@ -3,7 +3,7 @@ Hello !
 Lancement de la détection...
 
 <?php
-
+echo "Test console";
 $user=$_SERVER['HTTP_USER_AGENT'];
 
 if(stristr($user,'Macintosh')){$machine="Mac";}
